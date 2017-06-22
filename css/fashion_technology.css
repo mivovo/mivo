@@ -1,0 +1,69 @@
+body {
+  background: url("../images/fashion_technology.jpg") no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-family: 'Overpass Mono', monospace;
+  text-align: center;
+  background-color: rgba(255,255,255,0.1);
+}
+
+h1 {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 10vw;
+  color: #C6D22B;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 6vw;
+  color: #C6D22B;
+}
+
+h3 {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 2.5vw;
+  color: #230644;
+  background-color: white;
+}
+
+#footer {
+  color: #230644;
+}
+
+.image {
+display:inline-block;
+margin-left: 5vw;
+margin-bottom: 5vw;
+}
+
+.image img {
+    -webkit-transition: all 0.7s ease; /* Safari and Chrome */
+    -moz-transition: all 0.7s ease; /* Firefox */
+    -ms-transition: all 0.7s ease; /* IE 9 */
+    -o-transition: all 0.7s ease; /* Opera */
+    transition: all 0.7s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.12); /* Safari and Chrome */
+    -moz-transform:scale(1.12); /* Firefox */
+    -ms-transform:scale(1.12); /* IE 9 */
+    -o-transform:scale(1.12); /* Opera */
+     transform:scale(1.12);
+}
+
+a {
+  display: block;
+  text-decoration:none;
+}
+
+a:visited {
+  color: #230644;
+}
+
+a:hover {
+  color: #C6D22B;
+}
